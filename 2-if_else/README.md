@@ -1,4 +1,4 @@
-# The Mighty `if`, `if-else`, `nested-if-else` Statements in Python
+# The Mighty `if`, `if-else`, `elif`, `nested-if-else` Statements in Python
 
 ![if-else](https://www.freecodecamp.org/news/content/images/2022/03/image-89.png)
 
