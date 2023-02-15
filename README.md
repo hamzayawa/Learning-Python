@@ -1,7 +1,7 @@
 # Learning-Python
 ## Learning Python Practical Examples.
 
-![Learn-Python](img/img.jpeg)
+![Learn-Python](img/Code.png)
 
 Learning python is a collection of Python examples and tutorials that anyone can use to learn and practice programming in Python. By forking the repository, you can make your own copy of the repository and add your own examples and tutorials, making it a personalized resource for you to use in your learning.
 
