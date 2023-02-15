@@ -1,5 +1,7 @@
 # Conditional Statements with `elif` in Python
 
+![elif](/img/elif.jpeg)
+
 In Python, the `elif` statement is used to create more complex conditional statements. It's a shortened form of `else if,` and it allows you to chain multiple conditions together to create more nuanced branching logic.
 
 Here's an example:
