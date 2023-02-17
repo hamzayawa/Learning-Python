@@ -1,13 +1,6 @@
 # The Power of `Loops` in Python
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 30%;"
-    src="img/loops.png" 
-    alt="loops">
-</img>
+![Loops](/img/loops.png "loops")
 
 
 In Python, loops are a fundamental control structure that allow you to repeat a block of code multiple times. Whether you want to process a list of items, repeat a task until a certain condition is met, or perform a calculation multiple times, loops in Python provide an easy and flexible way to accomplish your goals.
