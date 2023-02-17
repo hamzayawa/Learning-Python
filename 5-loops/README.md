@@ -1,7 +1,7 @@
 # The Power of `Loops` in Python
 
 <div style="text-align: center;">
-![Loops](/img/loops.png "loops")
+![Loops](/img/loops.png)
 </div>
 
 
