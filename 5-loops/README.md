@@ -1,6 +1,6 @@
 # The Power of `Loops` in Python
 
-<p align=center>
+<p style= "text-align:center">
 ![Loops](/img/loops.png)
 </p>
 
