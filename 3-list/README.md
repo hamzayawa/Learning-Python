@@ -1,4 +1,8 @@
 # The Dynamic `list` in Python
+
+![List](/img/lists.jpeg)
+
+
 In Python, lists are a powerful data structure that allow you to store and manipulate a collection of items. Whether you need to keep track of a grocery list or organize a large dataset, lists have got you covered.
 
 A list in Python is created using square brackets ([]) and can contain items of any data type, including numbers, strings, and even other lists. Here's an example of how to create a list in Python:
