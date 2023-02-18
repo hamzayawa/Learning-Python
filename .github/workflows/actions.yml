@@ -1,0 +1,31 @@
+name: Python CI/CD
+
+on:
+  push:
+    paths:
+      - '**.py'
+
+jobs:
+  check-py-files:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Check for new Python files
+        run: |
+          python_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '\.py$' || true)
+          if [[ -z "$python_files" ]]; then
+            echo "No new Python files added"
+          else
+            echo "New Python files added: $python_files"
+            exit 1
+          fi
