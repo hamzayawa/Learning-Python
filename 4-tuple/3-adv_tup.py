@@ -1,4 +1,4 @@
-# A function returning multiple values
+# A function returning multiple values.
 def calculate(a, b):
     add = a + b
     sub = a - b
