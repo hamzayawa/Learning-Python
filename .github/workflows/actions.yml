@@ -25,7 +25,11 @@ jobs:
           python_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '\.py$' || true)
           if [[ -z "$python_files" ]]; then
             echo "No new Python files added"
-          else
-            echo "New Python files added: $python_files"
-            exit 1
           fi
+
+      - name: Check for changed/modified files
+        uses: jitterbit/get-changed-files@v1
+      - run: |
+          for changed_file in ${{ steps.files.outputs.all }}; do
+            echo "Do something with this ${changed_file}."
+          done
