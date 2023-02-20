@@ -37,3 +37,11 @@ print(my_list) # Output: [1, 2, 3, 4, 5]
 my_list = [1, 2, 3, 4, 5]
 my_list.reverse()
 print(my_list) # Output: [5, 4, 3, 2, 1]
+
+# Create another list
+my_list = [1, 2, 3, 4, 5]
+my_list2 = [6, 7, 8, 9, 10]
+
+my_list.extend(my_list2)
+print('List after extend():', my_list)
+
