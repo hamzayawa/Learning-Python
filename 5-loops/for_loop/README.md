@@ -1,5 +1,6 @@
 # The Efficient `for` Loops in Python
 
+![For](/img/for.jpg)
 
 In Python, `for` loops are a powerful tool for iterating over a sequence of items and performing a set of operations on each item. Whether you're processing a list of numbers, iterating over a string, or working with a collection of objects, for loops in Python provide a simple and flexible way to get the job done.
 
