@@ -1,4 +1,7 @@
 # The Dynamic while Loops in Python
+
+![While](/img/while.jpg)
+
 In Python, `while` loops are a control structure that allow you to repeatedly execute a block of code as long as a certain condition is met. Whether you're waiting for user input, processing data until a certain condition is satisfied, or performing a set of operations multiple times, `while` loops in Python provide a flexible and effective way to get the job done.
 
 Here's a simple example of a while loop in Python:
