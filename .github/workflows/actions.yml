@@ -29,10 +29,3 @@ jobs:
       
       - name: Test with tox
         run: tox
-
-      - name: Check for new Python files
-        run: |
-          python_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '\.py$' || true)
-          if [[ -z "$python_files" ]]; then
-            echo "New Python files added"
-          fi
