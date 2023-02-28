@@ -6,5 +6,6 @@ peak_traffic_hours = sorted(range(len(traffic_data)), key=lambda i: traffic_data
 # Get the average traffic for the day (excluding the first and last hour)
 average_traffic = sum(traffic_data[1:-1]) / (len(traffic_data) - 2)
 
-print(peak_traffic_hours)
-print(average_traffic)
+# Print the results
+print(f"Peak traffic hours: {peak_traffic_hours}")
+print(f"Average traffic: {average_traffic}")
