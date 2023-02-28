@@ -1,5 +1,7 @@
 # he Versatile `set` in Python
 
+![Sets](/img/sets.jpg)
+
 In Python, sets are a collection of unique items that offer a simple and efficient way to store and manipulate data. Unlike lists, sets do not allow duplicates and provide fast membership testing and set operations such as union, intersection, and difference.
 
 Here's an example of how to create a set in Python:
