@@ -1,4 +1,4 @@
-# he Versatile `set` in Python
+# The Versatile `set` in Python
 
 ![Sets](/img/sets.jpg)
 
