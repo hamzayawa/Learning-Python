@@ -1,5 +1,7 @@
 # The Dynamic dictionary in Python
 
+![dictionary](/img/dictionary.png)
+
 In Python, dictionaries are a type of data structure that allow you to store and manipulate data in a key-value format. This makes dictionaries a powerful tool for representing complex data structures and organizing your data in a meaningful way.
 
 Here's an example of how to create a dictionary in Python:
