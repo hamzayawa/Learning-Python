@@ -1,5 +1,5 @@
 # Learning-Python
-
+[![Python CI/CD](https://github.com/hamzayawa/Learning-Python/actions/workflows/actions.yml/badge.svg)](https://github.com/hamzayawa/Learning-Python/actions/workflows/actions.yml)
 ## Learning Python Practical Examples.
 
 ![Learn-Python](img/Code.png)
